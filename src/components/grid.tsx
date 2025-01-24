@@ -4,7 +4,7 @@ import React from "react";
 
 const Grid = ({ robotPosition }: { robotPosition: Position }) => {
   const GRID_SIZE = 5;
-  const { x, y, direction } = robotPosition;
+  const { x, y, direction } = robotPosition || {};
 
   const renderGrid = () => {
     return Array.from({ length: GRID_SIZE }, (_, rowIndex) => (
