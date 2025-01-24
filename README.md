@@ -1,4 +1,4 @@
-### Requirements
+### Description
 1. React Application
 - Bootstrap a React/Typescript application. You may use any CSS framework (Tailwind for
 example) or just vanilla CSS. Feel free to use any library.
@@ -9,10 +9,10 @@ example) or just vanilla CSS. Feel free to use any library.
 - Highlight the robot's final position.
 
 2. Movement
-Robots must execute one command per second ( L , R , or F ).
-Visually rotate the robot when turning ( L / R ).
-Move the robot to the correct location when given the F command.
-Rotation and movement can occur instantly. If you have time, animate the robot’s movement
+- Robots must execute one command per second ( L , R , or F ).
+- Visually rotate the robot when turning ( L / R ).
+- Move the robot to the correct location when given the F command.
+- Rotation and movement can occur instantly. If you have time, animate the robot’s movement
 with CSS transitions.
 
 4. Extensibility
